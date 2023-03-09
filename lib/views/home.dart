@@ -4,8 +4,7 @@ import 'package:recipe/models/recipe.api.dart';
 import '../models/recipe.dart';
 
 class Home extends StatefulWidget {
-  const Home({super.key});
-
+  const Home({Key? key}) : super(key: key);
 
   @override
   State<Home> createState() => _HomeState();
@@ -56,3 +55,4 @@ class _HomeState extends State<Home> {
     );
   }
 }
+
